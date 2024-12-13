@@ -1,0 +1,31 @@
+# Fichiers Terraform
+*.tfstate
+*.tfstate.backup
+
+# Crash logs de Terraform
+crash.log
+
+# Fichiers de plan Terraform
+*.tfplan
+
+# Fichiers de verrouillage pour les modules
+.terraform.lock.hcl
+
+# Répertoires de cache des modules Terraform
+.terraform/
+
+# Fichiers de configuration variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Fichiers de sauvegarde ou temporaires
+*.bak
+*.tmp
+*.swp
+*.backup
+*~
+
+# Fichiers spécifiques à certains IDE/éditeurs
+.idea/
+.vscode/
+*.DS_Store
